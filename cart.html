@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1703d874ac.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <section class="header" id="headerr">
+    <div class="container_logo">
+      <a href="index.html">
+        <img src="pic/Ellipse 1.png" class="logo" alt="">
+      </a>
+    </div>
+    <p onclick="myFunction()" id="ligomune"><i class="fa-solid fa-bars"></i> </p>
+    <ul id="nlinks" class="nav-links">
+      <li> <a onclick="myFunction()" id="closenav"><i class="fa-solid fa-xmark"></i> </a></li>
+
+      <li><a class="active" href="./index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
+
+      <li><a class="active" href="./Apropo.html"><i class="fa-solid fa-right-to-bracket"></i>About</a></li>
+
+      <li><a class="active " href="./cart.html"> <i class="fa-brands fa-shopify"></i> Services</a></li>
+
+      <li><a class="active" href="./contcet.html"> <i class="fa-solid fa-address-book"></i> Contact</a></li>
+    </ul>
+    </div>
+  </section>
+  <section class="about-heroline">
+    <div class="about-heroline-continer">
+      <div class="A-C-dec-H1">
+        <h1>lets’go to eate shuchi </h1>
+      </div>
+      <div class="A-C-continer">
+        <div class="A-C-dec-btn">
+          <div class="A-C-dec">
+            This Is Our Special Menu For This Week, Don't Miss Out!
+          </div>
+          <div class="A-C-btn">
+            <button>Add To Eat </button>
+          </div>
+        </div>
+        <div class="A-C-img">
+          <!-- for img -->
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+  <section class="crds">
+    <div class="cards-titre">
+      <h1>
+        Menu
+      </h1>
+    </div>
+    <div class="cards-filtr">
+      <select   onchange="ff()"  class="cards-filtr-select">
+        <option  value="Toutes les categories">Toutes les categories</option>
+        <option value="Salade"> Salade</option>
+        <option value="Sushi">Sushi</option>
+        <option value="Plats"> Plats</option>
+      </select>
+    </div>
+    <div  id="Salade" class="cards-munee">
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i   id="sd" onclick="paine('sd')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i  id="sd1" onclick="paine('sd1')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i  id="sd2" onclick="paine('sd2')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i   id="sd3" onclick="paine('sd3')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i  id="sd4" onclick="paine('sd4')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i  id="sd5" onclick="paine('sd5')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div  id="Sushi" class="cards-munee">
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/handsome-smiling-young-african-man_171337-9650.webp" alt="">
+          </div>
+          <div class="prix">
+            <span>$22200</span>
+            <i  id="s1" onclick="paine('s1')"  class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s2" onclick="paine('s2')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s3" onclick="paine('s3')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s4" onclick="paine('s4')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s5" onclick="paine('s5')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s6" onclick="paine('s6')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s7" onclick="paine('s7')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s8" onclick="paine('s8')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="s9" onclick="paine('s9')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div  id="Plats" class="cards-munee">
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/15505514635c6b89a7a0033.png" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p1" onclick="paine('p1')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p2" onclick="paine('p2')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p3" onclick="paine('p3')" class="fa-sharp fa-solid fa-plus"></i>
+          </div> 
+
+        </div>
+
+      </div>
+      <div class="cars-row">
+        <div class="card">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p3" onclick="paine('p4')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p5" onclick="paine('p5')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+        <div class="card2">
+          <span>Name</span>
+          <div class="img-card">
+            <img src="pic/giovanna-gomes-on2t2s6qkj4-unsplash.jpg" alt="">
+          </div>
+          <div class="prix">
+            <span>$1000</span>
+            <i id="p6" onclick="paine('p6')" class="fa-sharp fa-solid fa-plus"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="cart">
+    <div class="cart-titre">
+      <h1>Your Cart</h1>
+    </div>
+    <div class="continer-cart">
+      <div class="desc-art">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nisi voluptas iure velit aut, molestiae unde
+      </div>
+      <div class="carny">
+        <div class="carny-row aa">
+          <h3> Name</h3>
+        <h3>Price</h3>
+        <h3>conteti</h3>
+        </div>
+      
+        <div class="product">
+        </div>
+        <div class="carny-btn">
+          <button>Clcule</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- 
+fotet section -->
+  <footer>
+    <div class="foter-continer">
+      <div class="foter-continer-logo">
+        <img src="pic/Ellipse 1.png" alt="sorry bad wifi">
+      </div>
+      <div class="foter-continer-info1">
+        <h1>寿司, 鮨, 鮓</h1>
+        <p>
+          Good prix
+          and good
+          calti
+        </p>
+      </div>
+      <div class="foter-continer-info2">
+        <h1>For Caltie</h1>
+        <p>
+          Good prix
+          and good
+          calti
+        </p>
+      </div>
+      <div class="foter-continer-info3">
+        <h1>For prix</h1>
+        <p>
+          Good prix
+          and good
+          calti
+        </p>
+      </div>
+      <div class="foter-continer-contect">
+        <h1>contect</h1>
+        <input type="text" name="" id="inputfoter">
+        <br>
+        <button>
+          Send
+        </button>
+      </div>
+    </div>
+    <div class="foter-sochle">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-sharp fa-solid fa-phone"></i>
+      <i class="fa-sharp fa-solid fa-envelope"></i>
+
+    </div>
+  </footer>
+</body>
+
+</html>

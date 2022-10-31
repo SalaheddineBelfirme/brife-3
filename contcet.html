@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1703d874ac.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <section class="header" id="headerr" >
+            <div class="container_logo">
+              <a href="index.html">
+                <img src="pic/Ellipse 1.png" class="logo" alt="">
+              </a>
+            </div>
+            <p  onclick="myFunction()"  id="ligomune" ><i  class="fa-solid fa-bars"></i> </p>
+                <ul id="nlinks" class="nav-links" >
+                 <li> <a  onclick="myFunction()"   id="closenav" ><i class="fa-solid fa-xmark"></i> </a></li>
+    
+                    <li><a class="active" href="./index.html"> <i class="fa-solid fa-house"></i> Home</a></li>
+            
+                    <li><a class="active" href="./Apropo.html"><i class="fa-solid fa-right-to-bracket"></i>About</a></li>
+            
+                    <li><a class="active " href="./cart.html"> <i class="fa-brands fa-shopify"></i> Services</a></li>
+            
+                    <li><a class="active" href="./contcet.html"> <i class="fa-solid fa-address-book"></i> Contact</a></li>
+                  </ul>
+            </div>
+    </section>
+    <div class="contect" >
+        <div class="continer-inputs-contect">
+          <div class="titre">
+            <h1>Contect Us</h1>
+          </div>
+           <div class="continer-nam-lastname">
+            <div class="name-inputs-contect"> 
+            <input type="text" placeholder="Name">
+            </div>
+            <div  class="lastname-inputs-contect"> 
+                 <input type="text" placeholder="Last Name">
+            </div>
+           </div>
+           <div class="continer-inputs-tele" >  
+            <input type="text" placeholder="Telephone">
+            </div>
+            <div class="continer-inputs-mail" >  
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="continer-inputs-meesage" >  
+                <textarea type="text" placeholder="Message">
+                </textarea>
+         </div>
+         <div class="contect-btn">
+            <button type="button" id="btn">Send</button>
+         </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13489.804420004648!2d-9.2433213!3d32.2997324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sma!4v1666862972851!5m2!1sen!2sma" width="400
+            " height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <script>
+          var send = document.querySelector("#btn");
+          send.addEventListener('click',function(){
+          alert("Merci pour votre semestion");
+          })
+        </script>
+         
+    </div>
+    
+    <footer>
+        
+        <div class="foter-continer">
+          <div class="foter-continer-logo">
+            <img src="pic/Ellipse 1.png" alt="sorry bad wifi">
+          </div>
+          <div class="foter-continer-info1">
+            <h1>寿司, 鮨, 鮓</h1>
+            <p>
+              Good prix
+              and good 
+              calti
+            </p>
+          </div>
+          <div class="foter-continer-info2">
+            <h1>For  Caltie</h1>
+            <p>
+              Good prix
+              and good 
+              calti
+            </p>
+          </div>
+          <div class="foter-continer-info3">
+            <h1>For  prix</h1>
+            <p>
+              Good prix
+              and good 
+              calti
+            </p>
+          </div>
+          <div class="foter-continer-contect">
+            <h1>contect</h1>
+            <input type="text" name="" id="inputfoter">
+            <br>
+            <button>
+              Send
+            </button>
+          </div>
+        </div>
+        <div class="foter-sochle" >
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-sharp fa-solid fa-phone"></i>
+        <i class="fa-sharp fa-solid fa-envelope"></i>
+         
+        </div>
+      </footer>
+      
+      
+  </body>
+  </html>
