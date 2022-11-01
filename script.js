@@ -45,14 +45,21 @@
     }
 
  }
- 
+ var sum=0
 function paine(id){
   var plase =document.getElementById(id);
   var card= plase.parentElement.parentElement;
    var img =card.getElementsByTagName("img")[0].src;
    var name =card.getElementsByTagName("span")[0].textContent;
    var price =card.getElementsByTagName("span")[1].textContent;
+   sum+= parseInt(price);
    console.log(img);
    document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>'+name+'</span> <div class="img-card">   <img src="'+img+'" alt=""> </div> <div class="prix">  <span>'+price+'</span>  </div> </div>';
 }
+ function totl(){
+  
+  alert(sum);
+  sum=0;
+  document.querySelector(".product").innerHTML='';
+ }
 
