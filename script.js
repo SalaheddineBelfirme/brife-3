@@ -10,9 +10,16 @@
       element.style.visibility = "visible";
     }
     window.addEventListener('resize',function(){
-     
+
+      console.log(this.window.innerWidth);
+      // alert(this.window.innerWidth);
           if( this.window.innerWidth >700){
+            console.log(this.window.innerWidth);
               document.getElementById("nlinks").style.visibility="visible";
+
+              //this.alert(this.window.innerWidth);
+            //document.getElementById("closenav").style.visibility="hidden";
+
           }
        });
  }
@@ -36,7 +43,7 @@
     }
    else if(fltr.value =="Sushi"){
       toutMune();
-      alert("lllllll");
+      //alert("lllllll");
       document.getElementById("Plats").style.display="none";
       document.getElementById("Salade").style.display="none";
     }
@@ -57,9 +64,13 @@ function paine(id){
    document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>'+name+'</span> <div class="img-card">   <img src="'+img+'" alt=""> </div> <div class="prix">  <span>'+price+'</span>  </div> </div>';
 }
  function totl(){
-  
-  alert(sum);
-  sum=0;
-  document.querySelector(".product").innerHTML='';
+  if(sum==0){
+   
+    alert("u need to add prodact");
+  }
+  else{
+    alert(sum);
+    document.querySelector(".product").innerHTML='';
+  }
  }
 

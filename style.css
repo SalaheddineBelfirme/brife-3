@@ -28,8 +28,24 @@ body{
 #ligomune {
     visibility: hidden;
 }
-#closenav{
+/* #closenav{
     height: 0px;
+} */
+
+@media screen and (min-width : 998px) {
+    #nlinks{
+        position: relative;
+      
+    }
+    #closenav{
+        display: none;
+        position: absolute;
+        left: 4px;
+        top: 5px;
+        background-color: red;
+        
+    }
+    
 }
 .mystyle{
     visibility: visible;
@@ -178,7 +194,7 @@ body{
     margin-top: 2%;
 }
 .contect_continer_desc{
-    margin-top: 10px;
+ margin-top: 10px;
 width:  46%;
 border-radius: 8px;
 border: solid;
@@ -186,6 +202,7 @@ height: 130px;
 margin-top: 2%;
 margin-block: auto;
 background-color: rgb(253, 253, 253);
+font-weight: 300;
 
 
 }
@@ -230,6 +247,19 @@ footer{
     
 }
 @media only  screen  and   (max-width: 1000px){ 
+
+.foter-continer-info1{
+    margin-left: 35%;
+}
+.foter-continer-info2{
+    margin-left: 35%;
+}
+.foter-continer-info3{
+    margin-left: 35%;
+}
+.foter-continer-contect{
+    margin-left: 35%;
+}
     #ligomune {
         visibility: visible;
     }
@@ -240,11 +270,9 @@ footer{
     position: fixed;
     right: 0pc;
     top: 23px;
+    padding: 0px;
 
     background-color: rgb(255, 255, 255);
-}
-ligomune{
-    margin-left: 93px;
 }
 
 
@@ -305,6 +333,7 @@ ligomune{
     width: 90%;
     margin: auto;
     height: 43%;
+    
 }
 .foter-continer{
     flex-direction: column;
@@ -319,15 +348,8 @@ ligomune{
 
 }
 
-@media(max-width = 700px) {
-    #nlinks{
-        visibility: visible;
-    }
-    .mystyle{
-        visibility:hidden;
-    
-    }
-}
+
+
 
 
 
@@ -513,7 +535,13 @@ table, th, td {
     width: 150px
 }
 .cardCA{
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardCA img{
+        height: 81px;
+    width: 105px;
+    border-radius: 6px;
 }
 
     
