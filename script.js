@@ -61,7 +61,7 @@ function paine(id){
    var price =card.getElementsByTagName("span")[1].textContent;
    sum+= parseInt(price);
    console.log(img);
-   document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>'+name+'</span> <div class="img-card">   <img src="'+img+'" alt=""> </div> <div class="prix">  <span>'+price+'</span>  </div> </div>';
+   document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>'+name+'</span> <div class="img-card">   <img src="'+img+'" alt="Sushi image"> </div> <div class="prix">  <span>'+price+'</span>  </div> </div>';
 }
  function totl(){
   if(sum==0){

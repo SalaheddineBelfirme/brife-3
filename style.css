@@ -571,6 +571,9 @@ table, th, td {
         height: 37px;
         margin-bottom: 6%;
     }
+    .propos-containser-btn button{
+        margin-left: 0;
+    }
 }
 
 
@@ -698,7 +701,7 @@ width: 300px;
     font-size: large;
     height: 30px;
     margin: auto;
-    margin-left: 46%;
+    margin-left: 40%;
     margin-top: 3%;
 
 
@@ -737,6 +740,8 @@ width: 300px;
 .disc-imag-historique{
  
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-evenly;
 
 }
@@ -744,7 +749,7 @@ width: 300px;
 .img-historique{
     background-image: url(pic/15505514635c6b89a7a0033.png);
     background-size: contain;
-  
+  height: 225px;
     width: 400px;
 }
 
