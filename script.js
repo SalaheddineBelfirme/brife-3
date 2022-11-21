@@ -52,7 +52,12 @@
     }
 
  }
- var sum=0
+ var sum=0;
+ function plat(){
+  sum+=100;
+  document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>plat</span> <div class="img-card">   <img src="pic/post_619112.png" alt="Sushi image"> </div> <div class="prix">  <span>100DH</span>  </div> </div>';
+
+ }
 function paine(id){
   var plase =document.getElementById(id);
   var card= plase.parentElement.parentElement;
@@ -60,9 +65,9 @@ function paine(id){
    var name =card.getElementsByTagName("span")[0].textContent;
    var price =card.getElementsByTagName("span")[1].textContent;
    sum+= parseInt(price);
-   console.log(img);
    document.querySelector(".product").innerHTML+='<div class="cardCA">  <span>'+name+'</span> <div class="img-card">   <img src="'+img+'" alt="Sushi image"> </div> <div class="prix">  <span>'+price+'</span>  </div> </div>';
 }
+
  function totl(){
   if(sum==0){
    
