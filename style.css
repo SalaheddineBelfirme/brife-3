@@ -32,6 +32,15 @@ body{
     height: 0px;
 } */
 
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    }
+    .location iframe{
+    width: 100%;
+    }
+
 @media screen and (min-width : 998px) {
     #nlinks{
         position: relative;
@@ -543,8 +552,18 @@ table, th, td {
     width: 105px;
     border-radius: 6px;
 }
+.contect{
+    margin: auto;
+    text-align: center;
+}
+.contect input{
+width: 40%;
 
-    
+height: 21px;
+}
+#logof{
+    width: 85px;
+}
 
 
 
@@ -620,14 +639,14 @@ table, th, td {
     
 }
 .continer-inputs-contect{
-    width: 60%;
+    width: 100%;
     gap: 30px;
     display: flex;
     flex-direction: column;
 }
 .continer-inputs-contect input {
  border-radius: 9px;
- height: 25px;
+
 
 }
 
@@ -638,7 +657,7 @@ width: 300px;
     width: 370px;
 }
 .contect-btn button {
-    margin-left: 44%; 
+
     margin-block: 50px;
     height: 33px;
     width: 150px;
@@ -661,7 +680,7 @@ width: 300px;
     border: solid;
     border-radius: 8px;
     height: 168px;
-    width: 300px;
+    
 
 }
 
